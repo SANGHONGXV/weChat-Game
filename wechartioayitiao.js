@@ -1,9 +1,3 @@
-
-// 根据wangshub的Python代码修改而来(原项目地址https://github.com/wangshub/wechat_jump_game)
-
-// 运行环境：安卓软件Auto.js(https://github.com/hyb1996/Auto.js), 下载地址: https://github.com/hyb1996/Auto.js/releases
-// 需求root权限或者安卓7.0以上才能运行本脚本
-
 // 在原算法基础上优化了找出棋子的算法(直接使用Auto.js内置使用opencv实现的找色函数, 比原算法快很多)，但是在手机设备上找出跳跃位置的算法的效率还是不够理想
 
 var press_coefficient = device.height == 1920 ? 1.392 : 2.099;    // 长按的时间系数，请自己根据实际情况调节
